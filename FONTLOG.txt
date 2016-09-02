@@ -28,3 +28,4 @@ And many more smaller bug fix
 Arvo 3.000 (Cyreal | contact at cyreal.org) Aug 12 2016
 — Extended glyph set to GF Cyrillic Plus + localised variants. 
 — Ported source files to Glyphs, set UPM to 1000.
+— Fixed vertical metrics

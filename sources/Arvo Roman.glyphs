@@ -1,6 +1,6 @@
 {
-.appVersion = "895";
-copyright = "Copyright (c) 2010 by Anton Koovit.";
+.appVersion = "919";
+copyright = "Copyright (c) 2010 by Anton Koovit. Copyright (c) 2016 Cyreal";
 customParameters = (
 {
 name = licenseURL;
@@ -21,12 +21,6 @@ value = "Arvo roman regular can be used under SIL openfont License 1.1 For condi
 {
 name = openTypeOS2VendorID;
 value = KORK;
-},
-{
-name = openTypeOS2Type;
-value = (
-2
-);
 },
 {
 name = glyphOrder;
@@ -460,6 +454,14 @@ Iogonek,
 iogonek,
 uni2113
 );
+},
+{
+name = fsType;
+value = "New Parameter";
+},
+{
+name = vendorID;
+value = KORK;
 }
 );
 date = "2016-08-14 20:05:57 +0000";
@@ -469,7 +471,7 @@ familyName = Arvo;
 featurePrefixes = (
 {
 automatic = 1;
-code = "languagesystem DFLT dflt;\012languagesystem latn dflt;\012languagesystem cyrl dflt;\012languagesystem cyrl BGR;\012languagesystem cyrl SRB;\012";
+code = "languagesystem DFLT dflt;\012languagesystem cyrl dflt;\012languagesystem cyrl BGR;\012languagesystem cyrl SRB;\012";
 name = Languagesystems;
 }
 );
@@ -481,7 +483,7 @@ name = aalt;
 },
 {
 automatic = 1;
-code = "lookup ccmp_latn_1 {\012	script latn;\012	@CombiningTopAccents = [acutecomb dieresiscomb gravecomb hungarumlautcomb macroncomb];\012	sub [i]' @CombiningTopAccents by [idotless];\012} ccmp_latn_1;\012";
+code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [cedillacomb ogonekcomb];\012	sub [i]' @CombiningTopAccents by [idotless];\012	sub [i]' @CombiningNonTopAccents @CombiningTopAccents by [idotless];\012} ccmp_Other_1;\012";
 name = ccmp;
 },
 {
@@ -503,6 +505,11 @@ name = frac;
 automatic = 1;
 code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;\012sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;\012sub N o period by numero;\012";
 name = ordn;
+},
+{
+automatic = 1;
+code = "sub En-cy Ge-cy by Enghe-cy;\012sub en-cy ge-cy by enghe-cy;\012";
+name = dlig;
 },
 {
 automatic = 1;
@@ -69512,31 +69519,31 @@ instances = (
 customParameters = (
 {
 name = typoAscender;
-value = 760;
+value = 1037;
 },
 {
 name = typoDescender;
-value = -230;
+value = -265;
 },
 {
 name = typoLineGap;
-value = 54;
+value = 0;
 },
 {
 name = winAscent;
-value = 961;
+value = 970;
 },
 {
 name = winDescent;
-value = 247;
+value = 0;
 },
 {
 name = hheaAscender;
-value = 961;
+value = 1037;
 },
 {
 name = hheaDescender;
-value = -247;
+value = -265;
 }
 );
 interpolationWeight = 84;
@@ -69549,79 +69556,40 @@ name = Regular;
 customParameters = (
 {
 name = typoAscender;
-value = 760;
+value = 1037;
 },
 {
 name = typoDescender;
-value = -230;
+value = -265;
 },
 {
 name = typoLineGap;
-value = 54;
+value = 0;
 },
 {
 name = winAscent;
-value = 961;
+value = 970;
 },
 {
 name = winDescent;
-value = 247;
+value = 0;
 },
 {
 name = hheaAscender;
-value = 961;
+value = 1037;
 },
 {
 name = hheaDescender;
-value = -247;
+value = -265;
 }
 );
 interpolationWeight = 182;
 instanceInterpolations = {
 UUID0 = 1;
 };
+isBold = 1;
 name = Bold;
 weightClass = Bold;
-},
-{
-exports = 0;
-customParameters = (
-{
-name = typoAscender;
-value = 760;
-},
-{
-name = typoDescender;
-value = -230;
-},
-{
-name = typoLineGap;
-value = 54;
-},
-{
-name = winAscent;
-value = 961;
-},
-{
-name = winDescent;
-value = 247;
-},
-{
-name = hheaAscender;
-value = 961;
-},
-{
-name = hheaDescender;
-value = -247;
-}
-);
-interpolationWeight = 190;
-instanceInterpolations = {
-UUID1 = -0.0816327;
-UUID0 = 1.08163;
-};
-name = "Extrapolation Test";
-weightClass = Heavy;
 }
 );
 kerning = {
