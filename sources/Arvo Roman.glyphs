@@ -122,19 +122,19 @@ value = 210;
 },
 {
 name = winDescent;
-value = 230;
+value = 247;
 },
 {
 name = hheaAscender;
-value = 760;
+value = 961;
 },
 {
 name = winAscent;
-value = 970;
+value = 961;
 },
 {
 name = typoAscender;
-value = 760;
+value = 961;
 }
 );
 descender = -230;
@@ -177,19 +177,19 @@ value = 210;
 },
 {
 name = winDescent;
-value = 230;
+value = 247;
 },
 {
 name = hheaAscender;
-value = 760;
+value = 961;
 },
 {
 name = winAscent;
-value = 970;
+value = 961;
 },
 {
 name = typoAscender;
-value = 760;
+value = 961;
 }
 );
 descender = -230;

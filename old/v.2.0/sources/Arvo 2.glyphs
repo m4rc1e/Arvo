@@ -33,7 +33,41 @@ date = "2010-04-19 19:43:45 +0000";
 designer = "Anton Koovit";
 designerURL = anton.korkork.com;
 disablesAutomaticAlignment = 1;
-familyName = Arvo_reg_MM_12b;
+familyName = "Arvo Two";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;\012";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature subs;\012feature sups;\012feature frac;\012feature ordn;\012";
+name = aalt;
+},
+{
+automatic = 1;
+code = "sub two by twoinferior;\012sub four by fourinferior;\012";
+name = subs;
+},
+{
+automatic = 1;
+code = "sub one by onesuperior;\012sub two by twosuperior;\012sub three by threesuperior;\012sub four by foursuperior;\012";
+name = sups;
+},
+{
+automatic = 1;
+code = "sub one slash four by onequarter;\012sub one slash two by onehalf;\012sub three slash four by threequarters;\012";
+name = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;\012sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;\012";
+name = ordn;
+}
+);
 fontMaster = (
 {
 alignmentZones = (
@@ -45,6 +79,40 @@ alignmentZones = (
 );
 ascender = 760;
 capHeight = 740;
+customParameters = (
+{
+name = hheaDescender;
+value = -274;
+},
+{
+name = typoDescender;
+value = -274;
+},
+{
+name = hheaLineGap;
+value = 210;
+},
+{
+name = typoLineGap;
+value = 210;
+},
+{
+name = winDescent;
+value = 250;
+},
+{
+name = hheaAscender;
+value = 760;
+},
+{
+name = winAscent;
+value = 989;
+},
+{
+name = typoAscender;
+value = 760;
+}
+);
 descender = -230;
 horizontalStems = (
 172
@@ -67,6 +135,40 @@ alignmentZones = (
 );
 ascender = 760;
 capHeight = 740;
+customParameters = (
+{
+name = hheaDescender;
+value = -274;
+},
+{
+name = typoDescender;
+value = -274;
+},
+{
+name = hheaLineGap;
+value = 210;
+},
+{
+name = typoLineGap;
+value = 210;
+},
+{
+name = winDescent;
+value = 250;
+},
+{
+name = hheaAscender;
+value = 760;
+},
+{
+name = typoAscender;
+value = 760;
+},
+{
+name = winAscent;
+value = 989;
+}
+);
 descender = -230;
 horizontalStems = (
 96
@@ -75,7 +177,6 @@ id = UUID1;
 verticalStems = (
 84
 );
-weight = Light;
 weightValue = 373;
 xHeight = 506;
 }
@@ -1415,7 +1516,7 @@ unicode = 0045;
 },
 {
 glyphname = Eacute;
-lastChange = "2016-10-12 20:19:08 +0000";
+lastChange = "2016-10-12 20:45:30 +0000";
 layers = (
 {
 components = (
@@ -1931,7 +2032,7 @@ unicode = 0047;
 },
 {
 glyphname = H;
-lastChange = "2016-10-12 20:19:07 +0000";
+lastChange = "2016-10-12 20:45:28 +0000";
 layers = (
 {
 anchors = (
@@ -17892,12 +17993,20 @@ unicode = 02DC;
 );
 instances = (
 {
+interpolationWeight = 373;
 instanceInterpolations = {
-UUID0 = 1.35821;
-UUID1 = -0.358209;
+UUID1 = 1;
 };
-name = "Arvo v.2";
-weightClass = Normal;
+name = Regular;
+},
+{
+interpolationWeight = 172;
+instanceInterpolations = {
+UUID0 = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
 }
 );
 kerning = {
@@ -17922,6 +18031,6 @@ keyboardIncrement = 0;
 manufacturer = "Anton Koovit";
 manufacturerURL = google.com;
 unitsPerEm = 1000;
-versionMajor = 1;
+versionMajor = 2;
 versionMinor = 0;
 }
