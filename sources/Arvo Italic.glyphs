@@ -11,10 +11,6 @@ name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
 },
 {
-name = openTypeOS2VendorID;
-value = KORK;
-},
-{
 name = vendorID;
 value = KORK;
 },
@@ -35,6 +31,7 @@ value = 1;
 date = "2016-08-13 21:52:47 +0000";
 designer = "Anton Koovit (Cyrillic Expansion: Cyreal)";
 designerURL = "http://anton.korkork.com";
+disablesNiceNames = 1;
 familyName = Arvo;
 featurePrefixes = (
 {
@@ -30420,6 +30417,36 @@ widthMetricsKey = space;
 unicode = 00A0;
 },
 {
+glyphname = CR;
+lastChange = "2016-10-11 17:21:14 +0000";
+layers = (
+{
+layerId = "EEC59083-BA83-4EFB-8B50-D01213A5FD15";
+width = 230;
+},
+{
+layerId = "8956C7A5-95B5-4256-B2D2-E489185594C4";
+width = 240;
+}
+);
+unicode = 000D;
+},
+{
+glyphname = NULL;
+lastChange = "2016-10-11 17:21:14 +0000";
+layers = (
+{
+layerId = "EEC59083-BA83-4EFB-8B50-D01213A5FD15";
+width = 0;
+},
+{
+layerId = "8956C7A5-95B5-4256-B2D2-E489185594C4";
+width = 0;
+}
+);
+unicode = 0000;
+},
+{
 glyphname = .notdef;
 lastChange = "2016-08-15 21:57:57 +0000";
 layers = (
@@ -37364,36 +37391,6 @@ width = 0;
 }
 );
 note = kreis;
-},
-{
-glyphname = CR;
-lastChange = "2016-10-11 17:21:14 +0000";
-layers = (
-{
-layerId = "EEC59083-BA83-4EFB-8B50-D01213A5FD15";
-width = 230;
-},
-{
-layerId = "8956C7A5-95B5-4256-B2D2-E489185594C4";
-width = 240;
-}
-);
-unicode = 000D;
-},
-{
-glyphname = NULL;
-lastChange = "2016-10-11 17:21:14 +0000";
-layers = (
-{
-layerId = "EEC59083-BA83-4EFB-8B50-D01213A5FD15";
-width = 0;
-},
-{
-layerId = "8956C7A5-95B5-4256-B2D2-E489185594C4";
-width = 0;
-}
-);
-unicode = 0000;
 }
 );
 instances = (
