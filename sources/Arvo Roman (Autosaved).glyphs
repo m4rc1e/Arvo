@@ -6,7 +6,8 @@ DisplayStrings = (
 "Highest\012/Acircumflextilde/Ecircumflextilde/Ocircumflextilde/Abrevehookabove/Acircumflexhookabove/Ecircumflexhookabove/Ocircumflexhookabove/Abrevetilde/Abreveacute/Abrevegrave/Acircumflexgrave/Ecircumflexgrave/Ocircumflexgrave/Acircumflexacute/Ecircumflexacute/Ocircumflexacute \U00C2/Acircumflexdotbelow \U00CA/Ecircumflexdotbelow \012Lowest\012/ocircumflexdotbelow/odotbelow/ohorndotbelow \U00FD/ydotbelow/ygrave/yhookabove/ytilde/Abrevedotbelow/Acircumflexdotbelow/Adotbelow/Ecircumflexdotbelow/Edotbelow/Idotbelow/Ocircumflexdotbelow/Odotbelow/Ohorndotbelow/Udotbelow/Uhorndotbelow/Ydotbelow",
 "Highest\012/hookabovecomb/brevecomb_hookabovecomb/Abrevehookabove/Abreveacute/Acircumflextilde/Ecircumflextilde/Ocircumflextilde/Abrevetilde/Abrevegrave/Acircumflexhookabove/Ecircumflexhookabove/Ocircumflexhookabove/Acircumflexgrave/Ecircumflexgrave/Ocircumflexgrave/Acircumflexacute/Ecircumflexacute/Ocircumflexacute \U00C2/Acircumflexdotbelow \U00CA/Ecircumflexdotbelow \012Lowest\012/ocircumflexdotbelow/odotbelow/ohorndotbelow \U00FD/ydotbelow/ygrave/yhookabove/ytilde/Abrevedotbelow/Acircumflexdotbelow/Adotbelow/Ecircumflexdotbelow/Edotbelow/Idotbelow/Ocircumflexdotbelow/Odotbelow/Ohorndotbelow/Udotbelow/Uhorndotbelow/Ydotbelow",
 "Highest\012/brevecomb_hookabovecomb A/Abrevehookabove/Abreveacute/Acircumflextilde/Ecircumflextilde/Ocircumflextilde/Abrevetilde/Abrevegrave/Acircumflexhookabove/Ecircumflexhookabove/Ocircumflexhookabove/Acircumflexgrave/Ecircumflexgrave/Ocircumflexgrave/Acircumflexacute/Ecircumflexacute/Ocircumflexacute \U00C2/Acircumflexdotbelow \U00CA/Ecircumflexdotbelow \012Lowest\012/ocircumflexdotbelow/odotbelow/ohorndotbelow \U00FD/ydotbelow/ygrave/yhookabove/ytilde/Abrevedotbelow/Acircumflexdotbelow/Adotbelow/Ecircumflexdotbelow/Edotbelow/Idotbelow/Ocircumflexdotbelow/Odotbelow/Ohorndotbelow/Udotbelow/Uhorndotbelow/Ydotbelow",
-"Highest\012/brevecomb_hookabovecomb/Abrevehookabove/Abreveacute/Acircumflextilde/Ecircumflextilde/Ocircumflextilde/Abrevetilde/Abrevegrave/Acircumflexhookabove/Ecircumflexhookabove/Ocircumflexhookabove/Acircumflexgrave/Ecircumflexgrave/Ocircumflexgrave/Acircumflexacute/Ecircumflexacute/Ocircumflexacute \U00C2/Acircumflexdotbelow \U00CA/Ecircumflexdotbelow \012Lowest\012/ocircumflexdotbelow/odotbelow/ohorndotbelow \U00FD/ydotbelow/ygrave/yhookabove/ytilde/Abrevedotbelow/Acircumflexdotbelow/Adotbelow/Ecircumflexdotbelow/Edotbelow/Idotbelow/Ocircumflexdotbelow/Odotbelow/Ohorndotbelow/Udotbelow/Uhorndotbelow/Ydotbelow"
+"Highest\012/brevecomb_hookabovecomb/Abrevehookabove/Abreveacute/Acircumflextilde/Ecircumflextilde/Ocircumflextilde/Abrevetilde/Abrevegrave/Acircumflexhookabove/Ecircumflexhookabove/Ocircumflexhookabove/Acircumflexgrave/Ecircumflexgrave/Ocircumflexgrave/Acircumflexacute/Ecircumflexacute/Ocircumflexacute \U00C2/Acircumflexdotbelow \U00CA/Ecircumflexdotbelow \012Lowest\012/ocircumflexdotbelow/odotbelow/ohorndotbelow \U00FD/ydotbelow/ygrave/yhookabove/ytilde/Abrevedotbelow/Acircumflexdotbelow/Adotbelow/Ecircumflexdotbelow/Edotbelow/Idotbelow/Ocircumflexdotbelow/Odotbelow/Ohorndotbelow/Udotbelow/Uhorndotbelow/Ydotbelow",
+"Highest\012/Abrevehookabove/Abreveacute/Acircumflextilde/Ecircumflextilde/Ocircumflextilde/Abrevetilde/Abrevegrave/Acircumflexhookabove/Ecircumflexhookabove/Ocircumflexhookabove/Acircumflexgrave/Ecircumflexgrave/Ocircumflexgrave/Acircumflexacute/Ecircumflexacute/Ocircumflexacute \U00C2/Acircumflexdotbelow \U00CA/Ecircumflexdotbelow \012Lowest\012/ocircumflexdotbelow/odotbelow/ohorndotbelow \U00FD/ydotbelow/ygrave/yhookabove/ytilde/Abrevedotbelow/Acircumflexdotbelow/Adotbelow/Ecircumflexdotbelow/Edotbelow/Idotbelow/Ocircumflexdotbelow/Odotbelow/Ohorndotbelow/Udotbelow/Uhorndotbelow/Ydotbelow"
 );
 copyright = "Copyright (c) 2010 by Anton Koovit. Copyright (c) 2016 Cyreal";
 customParameters = (
@@ -113,36 +114,36 @@ ascender = 760;
 capHeight = 740;
 customParameters = (
 {
-name = hheaDescender;
-value = -230;
+name = hheaAscender;
+value = 760;
 },
 {
-name = typoDescender;
-value = -230;
+name = hheaDescender;
+value = -240;
 },
 {
 name = hheaLineGap;
-value = 210;
-},
-{
-name = typoLineGap;
-value = 210;
-},
-{
-name = winDescent;
-value = 247;
-},
-{
-name = hheaAscender;
-value = 961;
-},
-{
-name = winAscent;
-value = 961;
+value = 250;
 },
 {
 name = typoAscender;
-value = 961;
+value = 760;
+},
+{
+name = typoDescender;
+value = -240;
+},
+{
+name = typoLineGap;
+value = 250;
+},
+{
+name = winAscent;
+value = 1096;
+},
+{
+name = winDescent;
+value = 326;
 }
 );
 descender = -230;
@@ -168,36 +169,36 @@ ascender = 760;
 capHeight = 740;
 customParameters = (
 {
-name = hheaDescender;
-value = -230;
+name = hheaAscender;
+value = 760;
 },
 {
-name = typoDescender;
-value = -230;
+name = hheaDescender;
+value = -240;
 },
 {
 name = hheaLineGap;
-value = 210;
-},
-{
-name = typoLineGap;
-value = 210;
-},
-{
-name = winDescent;
-value = 247;
-},
-{
-name = hheaAscender;
-value = 961;
-},
-{
-name = winAscent;
-value = 961;
+value = 250;
 },
 {
 name = typoAscender;
-value = 961;
+value = 760;
+},
+{
+name = typoDescender;
+value = -240;
+},
+{
+name = typoLineGap;
+value = 250;
+},
+{
+name = winAscent;
+value = 1096;
+},
+{
+name = winDescent;
+value = 326;
 }
 );
 descender = -230;
