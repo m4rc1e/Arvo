@@ -1,5 +1,5 @@
 {
-.appVersion = "926";
+.appVersion = "939";
 copyright = "Copyright (c) 2010 by Anton Koovit. Copyright (c) 2016 Cyreal";
 customParameters = (
 {
@@ -19148,7 +19148,7 @@ layers = (
 anchors = (
 {
 name = top;
-position = "{515, 740}";
+position = "{525, 740}";
 }
 );
 layerId = "EEC59083-BA83-4EFB-8B50-D01213A5FD15";
@@ -19223,7 +19223,7 @@ width = 848;
 anchors = (
 {
 name = top;
-position = "{542, 740}";
+position = "{550, 740}";
 }
 );
 layerId = "8956C7A5-95B5-4256-B2D2-E489185594C4";
@@ -19231,10 +19231,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"745 493 LINE",
-"780 642 LINE",
-"210 302 LINE",
-"176 153 LINE"
+"742 485 LINE",
+"777 636 LINE",
+"207 296 LINE",
+"173 145 LINE"
 );
 },
 {
@@ -19307,7 +19307,7 @@ name = "Ii-cy.loclBGR";
 },
 {
 name = "brevecomb-cy";
-transform = "{1, 0, 0, 1, 211, 234}";
+transform = "{1, 0, 0, 1, 221, 234}";
 }
 );
 layerId = "EEC59083-BA83-4EFB-8B50-D01213A5FD15";
@@ -19320,7 +19320,7 @@ name = "Ii-cy.loclBGR";
 },
 {
 name = "brevecomb-cy";
-transform = "{1, 0, 0, 1, 200, 234}";
+transform = "{1, 0, 0, 1, 208, 234}";
 }
 );
 layerId = "8956C7A5-95B5-4256-B2D2-E489185594C4";
@@ -19339,7 +19339,7 @@ name = "Ii-cy.loclBGR";
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 223, 234}";
+transform = "{1, 0, 0, 1, 233, 234}";
 }
 );
 layerId = "EEC59083-BA83-4EFB-8B50-D01213A5FD15";
@@ -19352,7 +19352,7 @@ name = "Ii-cy.loclBGR";
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 296, 234}";
+transform = "{1, 0, 0, 1, 304, 234}";
 }
 );
 layerId = "8956C7A5-95B5-4256-B2D2-E489185594C4";

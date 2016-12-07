@@ -1,5 +1,5 @@
 {
-.appVersion = "926";
+.appVersion = "939";
 copyright = "Copyright (c) 2010 by Anton Koovit. Copyright (c) 2016 Cyreal";
 customParameters = (
 {
@@ -7297,7 +7297,7 @@ position = "{20, 740}";
 },
 {
 name = topright;
-position = "{761, 740}";
+position = "{662, 697}";
 }
 );
 background = {
@@ -7421,7 +7421,7 @@ position = "{20, 740}";
 },
 {
 name = topright;
-position = "{762, 740}";
+position = "{657, 705}";
 }
 );
 background = {
@@ -8342,7 +8342,7 @@ name = O;
 },
 {
 name = horncomb;
-transform = "{1, 0, 0, 1, 398, 234}";
+transform = "{1, 0, 0, 1, 293, 199}";
 }
 );
 layerId = UUID1;
@@ -8355,7 +8355,7 @@ name = O;
 },
 {
 name = horncomb;
-transform = "{1, 0, 0, 1, 397, 234}";
+transform = "{1, 0, 0, 1, 298, 191}";
 }
 );
 layerId = UUID0;
@@ -39377,10 +39377,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"717 493 LINE",
-"717 602 LINE",
-"226 262 LINE",
-"226 153 LINE"
+"717 460 LINE",
+"717 603 LINE",
+"226 303 LINE",
+"226 160 LINE"
 );
 }
 );
@@ -39395,7 +39395,11 @@ layers = (
 {
 components = (
 {
-name = "Iishort-cy";
+name = "Ii-cy.loclBGR";
+},
+{
+name = "brevecomb-cy";
+transform = "{1, 0, 0, 1, 153, 234}";
 }
 );
 layerId = UUID1;
@@ -39404,7 +39408,11 @@ width = 848;
 {
 components = (
 {
-name = "Iishort-cy";
+name = "Ii-cy.loclBGR";
+},
+{
+name = "brevecomb-cy";
+transform = "{1, 0, 0, 1, 142, 234}";
 }
 );
 layerId = UUID0;
@@ -39419,7 +39427,11 @@ layers = (
 {
 components = (
 {
-name = "Iigrave-cy";
+name = "Ii-cy.loclBGR";
+},
+{
+name = gravecomb;
+transform = "{1, 0, 0, 1, 237, 234}";
 }
 );
 layerId = UUID1;
@@ -39428,7 +39440,11 @@ width = 848;
 {
 components = (
 {
-name = "Iigrave-cy";
+name = "Ii-cy.loclBGR";
+},
+{
+name = gravecomb;
+transform = "{1, 0, 0, 1, 247, 234}";
 }
 );
 layerId = UUID0;
@@ -71394,7 +71410,7 @@ transform = "{1, 0, 0, 1, 91, 0}";
 {
 alignment = -1;
 name = acutecomb;
-transform = "{0.8249, 0, 0, 0.8249, 348, 173}";
+transform = "{0.8249, 0, 0, 0.8249, 378, 233}";
 }
 );
 layerId = UUID1;
@@ -71409,7 +71425,7 @@ transform = "{0.8249, 0, 0, 0.8249, 69, 102}";
 {
 alignment = -1;
 name = acutecomb;
-transform = "{0.8249, 0, 0, 0.8249, 314, 172}";
+transform = "{0.8249, 0, 0, 0.8249, 334, 212}";
 }
 );
 layerId = UUID0;
@@ -71512,7 +71528,7 @@ transform = "{1, 0, 0, 1, 33, 0}";
 {
 alignment = -1;
 name = tildecomb;
-transform = "{1, 0, 0, 1, 7, 169}";
+transform = "{1, 0, 0, 1, 62, 169}";
 }
 );
 layerId = UUID1;
