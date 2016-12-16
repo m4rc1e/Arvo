@@ -1,5 +1,5 @@
 {
-.appVersion = "939";
+.appVersion = "948";
 copyright = "Copyright (c) 2010 by Anton Koovit. Copyright (c) 2016 Cyreal";
 customParameters = (
 {
@@ -187,31 +187,31 @@ capHeight = 740;
 customParameters = (
 {
 name = hheaAscender;
-value = 760;
+value = 960;
 },
 {
 name = hheaDescender;
-value = -240;
+value = -247;
 },
 {
 name = hheaLineGap;
-value = 250;
+value = 26;
 },
 {
 name = typoAscender;
-value = 760;
+value = 759;
 },
 {
 name = typoDescender;
-value = -240;
+value = -229;
 },
 {
 name = typoLineGap;
-value = 250;
+value = 53;
 },
 {
 name = winAscent;
-value = 1204;
+value = 1096;
 },
 {
 name = winDescent;
@@ -242,31 +242,31 @@ capHeight = 740;
 customParameters = (
 {
 name = hheaAscender;
-value = 760;
+value = 960;
 },
 {
 name = hheaDescender;
-value = -240;
+value = -247;
 },
 {
 name = hheaLineGap;
-value = 250;
+value = 26;
 },
 {
 name = typoAscender;
-value = 760;
+value = 759;
 },
 {
 name = typoDescender;
-value = -240;
+value = -229;
 },
 {
 name = typoLineGap;
-value = 250;
+value = 53;
 },
 {
 name = winAscent;
-value = 1204;
+value = 1096;
 },
 {
 name = winDescent;
