@@ -1,11 +1,7 @@
 {
 .appVersion = "948";
-copyright = "Copyright (c) 2010 by Anton Koovit. Copyright (c) 2016 Cyreal";
+copyright = "Copyright 2013 The Arvo Project Authors (anton@korkork.com), with Reserved Font Name \"Arvo\".";
 customParameters = (
-{
-name = trademark;
-value = "Copyright (c) 2010 by Anton Koovit. ";
-},
 {
 name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
@@ -41090,7 +41086,6 @@ instanceInterpolations = {
 "EEC59083-BA83-4EFB-8B50-D01213A5FD15" = 1;
 };
 isItalic = 1;
-linkStyle = Regular;
 name = Italic;
 },
 {
@@ -41100,7 +41095,6 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = Regular;
 name = "Bold Italic";
 weightClass = Bold;
 }

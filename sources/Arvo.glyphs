@@ -1,11 +1,7 @@
 {
 .appVersion = "948";
-copyright = "Copyright (c) 2010 by Anton Koovit. Copyright (c) 2016 Cyreal";
+copyright = "Copyright 2013 The Arvo Project Authors (anton@korkork.com), with Reserved Font Name \"Arvo\".";
 customParameters = (
-{
-name = trademark;
-value = "Copyright (c) 2010 by Anton Koovit. ";
-},
 {
 name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
@@ -36,8 +32,8 @@ name = "Use Line Breaks";
 value = 1;
 }
 );
-date = "2016-10-11 17:04:32 +0000";
-designer = "Anton Koovit (Cyrillic charset expansion: Cyreal)";
+date = "2016-08-13 21:52:47 +0000";
+designer = "Anton Koovit (Cyrillic Expansion: Cyreal)";
 designerURL = "http://anton.korkork.com";
 disablesNiceNames = 1;
 familyName = Arvo;
@@ -37533,6 +37529,59 @@ unicode = 04A2;
 },
 {
 color = 5;
+glyphname = "Enghe-cy";
+layers = (
+{
+components = (
+{
+name = "En-cy";
+}
+);
+layerId = UUID1;
+paths = (
+{
+closed = 1;
+nodes = (
+"1120 545 LINE",
+"1120 740 LINE",
+"597 740 LINE",
+"597 656 LINE",
+"1020 656 LINE",
+"1020 545 LINE"
+);
+}
+);
+width = 1126;
+},
+{
+components = (
+{
+name = "En-cy";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"1130 510 LINE",
+"1130 740 LINE",
+"551 740 LINE",
+"551 606 LINE",
+"970 606 LINE",
+"970 510 LINE"
+);
+}
+);
+width = 1133;
+}
+);
+leftMetricsKey = "En-cy";
+rightMetricsKey = "Ge-cy";
+unicode = 04A4;
+},
+{
+color = 5;
 glyphname = "Pedescender-cy";
 layers = (
 {
@@ -38130,6 +38179,33 @@ width = 728;
 }
 );
 unicode = 04D2;
+},
+{
+color = 5;
+glyphname = "Aie-cy";
+layers = (
+{
+components = (
+{
+name = AE;
+}
+);
+layerId = UUID1;
+width = 935;
+},
+{
+components = (
+{
+name = AE;
+}
+);
+layerId = UUID0;
+width = 1022;
+}
+);
+leftMetricsKey = AE;
+rightMetricsKey = AE;
+unicode = 04D4;
 },
 {
 color = 5;
@@ -45964,6 +46040,94 @@ unicode = 04A3;
 },
 {
 color = 5;
+glyphname = "enghe-cy";
+layers = (
+{
+components = (
+{
+name = "en-cy";
+}
+);
+hints = (
+{
+origin = "{0, 3}";
+},
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = "{0, 21}";
+target = up;
+type = BottomGhost;
+}
+);
+layerId = UUID1;
+paths = (
+{
+closed = 1;
+nodes = (
+"810 327 LINE",
+"810 506 LINE",
+"376 506 LINE",
+"376 422 LINE",
+"715 422 LINE",
+"715 327 LINE"
+);
+}
+);
+width = 830;
+},
+{
+components = (
+{
+name = "en-cy";
+}
+);
+hints = (
+{
+origin = "{0, 2}";
+target = "{0, 4}";
+},
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = down;
+type = TopGhost;
+},
+{
+horizontal = 1;
+place = "{0, 21}";
+target = up;
+type = BottomGhost;
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"921 276 LINE",
+"921 506 LINE",
+"415 506 LINE",
+"415 372 LINE",
+"771 372 LINE",
+"771 276 LINE"
+);
+}
+);
+width = 936;
+}
+);
+leftMetricsKey = "en-cy";
+rightMetricsKey = "ge-cy";
+unicode = 04A5;
+},
+{
+color = 5;
 glyphname = "pedescender-cy";
 layers = (
 {
@@ -46763,6 +46927,33 @@ width = 581;
 }
 );
 unicode = 04D3;
+},
+{
+color = 5;
+glyphname = "aie-cy";
+layers = (
+{
+components = (
+{
+name = ae;
+}
+);
+layerId = UUID1;
+width = 871;
+},
+{
+components = (
+{
+name = ae;
+}
+);
+layerId = UUID0;
+width = 904;
+}
+);
+leftMetricsKey = ae;
+rightMetricsKey = ae;
+unicode = 04D5;
 },
 {
 color = 5;
@@ -50376,201 +50567,6 @@ layerId = UUID1;
 width = 422;
 }
 );
-},
-{
-color = 5;
-glyphname = "Enghe-cy";
-layers = (
-{
-components = (
-{
-name = "En-cy";
-}
-);
-layerId = UUID1;
-paths = (
-{
-closed = 1;
-nodes = (
-"1120 545 LINE",
-"1120 740 LINE",
-"597 740 LINE",
-"597 656 LINE",
-"1020 656 LINE",
-"1020 545 LINE"
-);
-}
-);
-width = 1126;
-},
-{
-components = (
-{
-name = "En-cy";
-}
-);
-layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
-"1130 510 LINE",
-"1130 740 LINE",
-"551 740 LINE",
-"551 606 LINE",
-"970 606 LINE",
-"970 510 LINE"
-);
-}
-);
-width = 1133;
-}
-);
-leftMetricsKey = "En-cy";
-rightMetricsKey = "Ge-cy";
-unicode = 04A4;
-},
-{
-color = 5;
-glyphname = "enghe-cy";
-layers = (
-{
-components = (
-{
-name = "en-cy";
-}
-);
-hints = (
-{
-origin = "{0, 3}";
-},
-{
-horizontal = 1;
-origin = "{0, 2}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-}
-);
-layerId = UUID1;
-paths = (
-{
-closed = 1;
-nodes = (
-"810 327 LINE",
-"810 506 LINE",
-"376 506 LINE",
-"376 422 LINE",
-"715 422 LINE",
-"715 327 LINE"
-);
-}
-);
-width = 830;
-},
-{
-components = (
-{
-name = "en-cy";
-}
-);
-hints = (
-{
-origin = "{0, 2}";
-target = "{0, 4}";
-},
-{
-horizontal = 1;
-origin = "{0, 2}";
-target = down;
-type = TopGhost;
-},
-{
-horizontal = 1;
-place = "{0, 21}";
-target = up;
-type = BottomGhost;
-}
-);
-layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
-"921 276 LINE",
-"921 506 LINE",
-"415 506 LINE",
-"415 372 LINE",
-"771 372 LINE",
-"771 276 LINE"
-);
-}
-);
-width = 936;
-}
-);
-leftMetricsKey = "en-cy";
-rightMetricsKey = "ge-cy";
-unicode = 04A5;
-},
-{
-color = 5;
-glyphname = "Aie-cy";
-layers = (
-{
-components = (
-{
-name = AE;
-}
-);
-layerId = UUID1;
-width = 935;
-},
-{
-components = (
-{
-name = AE;
-}
-);
-layerId = UUID0;
-width = 1022;
-}
-);
-leftMetricsKey = AE;
-rightMetricsKey = AE;
-unicode = 04D4;
-},
-{
-color = 5;
-glyphname = "aie-cy";
-layers = (
-{
-components = (
-{
-name = ae;
-}
-);
-layerId = UUID1;
-width = 871;
-},
-{
-components = (
-{
-name = ae;
-}
-);
-layerId = UUID0;
-width = 904;
-}
-);
-leftMetricsKey = ae;
-rightMetricsKey = ae;
-unicode = 04D5;
 },
 {
 color = 4;
@@ -58830,20 +58826,6 @@ width = 180;
 unicode = 000D;
 },
 {
-glyphname = NULL;
-layers = (
-{
-layerId = UUID1;
-width = 0;
-},
-{
-layerId = UUID0;
-width = 0;
-}
-);
-unicode = 0000;
-},
-{
 color = 4;
 glyphname = .notdef;
 layers = (
@@ -58938,45 +58920,6 @@ nodes = (
 }
 );
 width = 557;
-}
-);
-},
-{
-glyphname = NULL.001;
-layers = (
-{
-layerId = UUID1;
-width = 600;
-},
-{
-layerId = UUID0;
-width = 600;
-}
-);
-},
-{
-glyphname = NULL.002;
-layers = (
-{
-layerId = UUID1;
-width = 600;
-},
-{
-layerId = UUID0;
-width = 600;
-}
-);
-},
-{
-glyphname = NULL.003;
-layers = (
-{
-layerId = UUID1;
-width = 600;
-},
-{
-layerId = UUID0;
-width = 600;
 }
 );
 },
@@ -71552,6 +71495,20 @@ width = 528;
 );
 },
 {
+glyphname = NULL;
+layers = (
+{
+layerId = UUID1;
+width = 0;
+},
+{
+layerId = UUID0;
+width = 0;
+}
+);
+unicode = 0000;
+},
+{
 export = 0;
 glyphname = serif.bot;
 layers = (
@@ -72512,7 +72469,7 @@ period = 0;
 };
 };
 };
-manufacturer = "Anton Koovit";
+manufacturer = "Anton Koovit, Yassin Baggar";
 manufacturerURL = "http://google.com";
 unitsPerEm = 1000;
 userData = {
