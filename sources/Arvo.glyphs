@@ -1,8 +1,5 @@
 {
 .appVersion = "939";
-DisplayStrings = (
-"abcdefghi/j.alt1 j/j.alt1/jdotless klmnopqrstuvwxyz"
-);
 copyright = "Copyright 2013 The Arvo Project Authors (anton@korkork.com), with Reserved Font Name \"Arvo\".";
 customParameters = (
 {
@@ -11120,7 +11117,7 @@ name = O;
 },
 {
 name = horncomb;
-transform = "{1, 0, 0, 1, 291, 199}";
+transform = "{1, 0, 0, 1, 605, 199}";
 }
 );
 layerId = UUID1;
@@ -16410,7 +16407,7 @@ name = Uhorn;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 252, 234}";
+transform = "{1, 0, 0, 1, 312, 234}";
 }
 );
 layerId = UUID1;
@@ -16423,7 +16420,7 @@ name = Uhorn;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 227, 234}";
+transform = "{1, 0, 0, 1, 287, 234}";
 }
 );
 layerId = UUID0;
@@ -30157,7 +30154,7 @@ layers = (
 anchors = (
 {
 name = top;
-position = "{523, 506}";
+position = "{563, 506}";
 }
 );
 background = {
@@ -30282,7 +30279,7 @@ width = 1053;
 anchors = (
 {
 name = top;
-position = "{503, 506}";
+position = "{513, 506}";
 }
 );
 background = {
@@ -31289,11 +31286,23 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{299, -115}";
+position = "{304, 0}";
+},
+{
+name = center;
+position = "{304, 253}";
+},
+{
+name = ogonek;
+position = "{462, 35}";
 },
 {
 name = top;
 position = "{298, 506}";
+},
+{
+name = topright;
+position = "{468, 469}";
 }
 );
 background = {
@@ -31397,11 +31406,23 @@ width = 608;
 anchors = (
 {
 name = bottom;
-position = "{298, -115}";
+position = "{298, 0}";
+},
+{
+name = center;
+position = "{298, 253}";
+},
+{
+name = ogonek;
+position = "{453, 34}";
 },
 {
 name = top;
-position = "{297, 506}";
+position = "{296, 506}";
+},
+{
+name = topright;
+position = "{451, 473}";
 }
 );
 background = {
@@ -32322,7 +32343,7 @@ name = o;
 },
 {
 name = horncomb;
-transform = "{1, 0, 0, 1, 105, 0}";
+transform = "{1, 0, 0, 1, 401, -33}";
 }
 );
 layerId = UUID1;
@@ -32355,7 +32376,7 @@ name = ohorn;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 145, 0}";
+transform = "{1, 0, 0, 1, 204, 0}";
 }
 );
 layerId = UUID1;
@@ -32388,7 +32409,7 @@ name = ohorn;
 },
 {
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 188, -115}";
+transform = "{1, 0, 0, 1, 188, 0}";
 }
 );
 layerId = UUID1;
@@ -32421,7 +32442,7 @@ name = ohorn;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 101, 0}";
+transform = "{1, 0, 0, 1, 100, 0}";
 }
 );
 layerId = UUID1;
@@ -32454,7 +32475,7 @@ name = ohorn;
 },
 {
 name = hookabovecomb;
-transform = "{1, 0, 0, 1, 134, 0}";
+transform = "{1, 0, 0, 1, 133, 0}";
 }
 );
 layerId = UUID1;
@@ -32487,7 +32508,7 @@ name = ohorn;
 },
 {
 name = tildecomb;
-transform = "{1, 0, 0, 1, 81, 0}";
+transform = "{1, 0, 0, 1, 80, 0}";
 }
 );
 layerId = UUID1;
@@ -33162,7 +33183,7 @@ name = o;
 },
 {
 name = tilde;
-transform = "{1, 0, 0, 1, 81, 0}";
+transform = "{1, 0, 0, 1, 80, 0}";
 }
 );
 layerId = UUID1;
@@ -33369,8 +33390,12 @@ layers = (
 {
 anchors = (
 {
+name = bottom;
+position = "{334, 0}";
+},
+{
 name = top;
-position = "{360, 506}";
+position = "{364, 506}";
 }
 );
 background = {
@@ -33457,8 +33482,12 @@ width = 668;
 {
 anchors = (
 {
+name = bottom;
+position = "{305, 0}";
+},
+{
 name = top;
-position = "{297, 506}";
+position = "{325, 506}";
 }
 );
 background = {
@@ -34023,7 +34052,7 @@ width = 542;
 anchors = (
 {
 name = top;
-position = "{252, 506}";
+position = "{242, 506}";
 }
 );
 background = {
@@ -35953,6 +35982,24 @@ color = 4;
 glyphname = t;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{196, 0}";
+},
+{
+name = center;
+position = "{196, 253}";
+},
+{
+name = top;
+position = "{152, 621}";
+},
+{
+name = topright;
+position = "{271, 526}";
+}
+);
 background = {
 paths = (
 {
@@ -35990,7 +36037,7 @@ nodes = (
 };
 hints = (
 {
-origin = "{0, 13}";
+origin = "{0, 12}";
 target = "{0, 10}";
 },
 {
@@ -36016,7 +36063,6 @@ nodes = (
 "228 164 CURVE SMOOTH",
 "231 699 LINE",
 "79 627 LINE",
-"78 476 LINE",
 "76 154 LINE SMOOTH",
 "75 43 OFFCURVE",
 "146 -12 OFFCURVE",
@@ -36036,6 +36082,24 @@ nodes = (
 width = 391;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{186, 0}";
+},
+{
+name = center;
+position = "{186, 253}";
+},
+{
+name = top;
+position = "{147, 620}";
+},
+{
+name = topright;
+position = "{246, 546}";
+}
+);
 background = {
 paths = (
 {
@@ -36073,7 +36137,7 @@ nodes = (
 };
 hints = (
 {
-origin = "{0, 13}";
+origin = "{0, 12}";
 target = "{0, 10}";
 },
 {
@@ -36099,7 +36163,6 @@ nodes = (
 "193 140 CURVE SMOOTH",
 "196 669 LINE",
 "107 627 LINE",
-"106 487 LINE",
 "104 154 LINE SMOOTH",
 "104 26 OFFCURVE",
 "149 -12 OFFCURVE",
@@ -36186,12 +36249,12 @@ components = (
 name = t;
 },
 {
-name = quotesingle;
-transform = "{1, 0, 0, 1, 261, 10}";
+name = caroncomb.alt;
+transform = "{1, 0, 0, 1, 221, 20}";
 }
 );
 layerId = UUID0;
-width = 470;
+width = 391;
 },
 {
 background = {
@@ -36254,12 +36317,12 @@ components = (
 name = t;
 },
 {
-name = quotesingle;
-transform = "{1, 0, 0, 1, 241, 20}";
+name = caroncomb.alt;
+transform = "{1, 0, 0, 1, 196, 40}";
 }
 );
 layerId = UUID1;
-width = 420;
+width = 372;
 }
 );
 leftKerningGroup = t;
@@ -36267,293 +36330,35 @@ rightKerningGroup = t;
 unicode = 0165;
 },
 {
-color = 6;
 glyphname = tcommaaccent;
 layers = (
 {
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"230 506 LINE",
-"331 506 LINE",
-"331 378 LINE",
-"229 378 LINE",
-"228 164 LINE",
-"228 146 LINE",
-"234 123 LINE",
-"245 109 LINE",
-"261 104 LINE",
-"271 104 LINE",
-"290 104 LINE",
-"318 111 LINE",
-"332 116 LINE",
-"353 22 LINE",
-"328 6 LINE",
-"267 -12 LINE",
-"225 -12 LINE",
-"195 -12 LINE",
-"141 8 LINE",
-"100 50 LINE",
-"76 112 LINE",
-"76 154 LINE",
-"78 378 LINE",
-"5 378 LINE",
-"5 506 LINE",
-"78 506 LINE",
-"79 627 LINE",
-"231 699 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"153 -14 LINE",
-"294 -65 LINE",
-"198 -230 LINE",
-"97 -195 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"0 770 LINE",
-"391 770 LINE",
-"391 0 LINE",
-"0 0 LINE"
-);
-}
-);
-};
 components = (
 {
 name = t;
 },
 {
-name = commabelow;
-transform = "{1, 0, 0, 1, 85, 0}";
-}
-);
-layerId = UUID0;
-width = 391;
-},
-{
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"230 506 LINE",
-"331 506 LINE",
-"331 378 LINE",
-"229 378 LINE",
-"228 164 LINE",
-"228 146 LINE",
-"234 123 LINE",
-"245 109 LINE",
-"261 104 LINE",
-"271 104 LINE",
-"290 104 LINE",
-"318 111 LINE",
-"332 116 LINE",
-"353 22 LINE",
-"328 6 LINE",
-"267 -12 LINE",
-"225 -12 LINE",
-"195 -12 LINE",
-"141 8 LINE",
-"100 50 LINE",
-"76 112 LINE",
-"76 154 LINE",
-"78 378 LINE",
-"5 378 LINE",
-"5 506 LINE",
-"78 506 LINE",
-"79 627 LINE",
-"231 699 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"153 -14 LINE",
-"294 -65 LINE",
-"198 -230 LINE",
-"97 -195 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"0 770 LINE",
-"391 770 LINE",
-"391 0 LINE",
-"0 0 LINE"
-);
-}
-);
-};
-components = (
-{
-name = t;
-},
-{
-name = commabelow;
-transform = "{1, 0, 0, 1, 97, 0}";
+name = commaaccentcomb;
+transform = "{1, 0, 0, 1, 75, 0}";
 }
 );
 layerId = UUID1;
 width = 372;
-}
-);
-leftKerningGroup = t;
-rightKerningGroup = t;
-unicode = 021B;
 },
 {
-color = 6;
-glyphname = tcommaaccent;
-layers = (
-{
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"230 506 LINE",
-"331 506 LINE",
-"331 378 LINE",
-"229 378 LINE",
-"228 164 LINE",
-"228 146 LINE",
-"234 123 LINE",
-"245 109 LINE",
-"261 104 LINE",
-"271 104 LINE",
-"290 104 LINE",
-"318 111 LINE",
-"332 116 LINE",
-"353 22 LINE",
-"328 6 LINE",
-"267 -12 LINE",
-"225 -12 LINE",
-"195 -12 LINE",
-"141 8 LINE",
-"100 50 LINE",
-"76 112 LINE",
-"76 154 LINE",
-"78 378 LINE",
-"5 378 LINE",
-"5 506 LINE",
-"78 506 LINE",
-"79 627 LINE",
-"231 699 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"153 -14 LINE",
-"294 -65 LINE",
-"198 -230 LINE",
-"97 -195 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"0 770 LINE",
-"391 770 LINE",
-"391 0 LINE",
-"0 0 LINE"
-);
-}
-);
-};
 components = (
 {
 name = t;
 },
 {
-name = commabelow;
-transform = "{1, 0, 0, 1, 85, 0}";
+name = commaaccentcomb;
+transform = "{1, 0, 0, 1, 99, 0}";
 }
 );
 layerId = UUID0;
 width = 391;
-},
-{
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"230 506 LINE",
-"331 506 LINE",
-"331 378 LINE",
-"229 378 LINE",
-"228 164 LINE",
-"228 146 LINE",
-"234 123 LINE",
-"245 109 LINE",
-"261 104 LINE",
-"271 104 LINE",
-"290 104 LINE",
-"318 111 LINE",
-"332 116 LINE",
-"353 22 LINE",
-"328 6 LINE",
-"267 -12 LINE",
-"225 -12 LINE",
-"195 -12 LINE",
-"141 8 LINE",
-"100 50 LINE",
-"76 112 LINE",
-"76 154 LINE",
-"78 378 LINE",
-"5 378 LINE",
-"5 506 LINE",
-"78 506 LINE",
-"79 627 LINE",
-"231 699 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"153 -14 LINE",
-"294 -65 LINE",
-"198 -230 LINE",
-"97 -195 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"0 770 LINE",
-"391 770 LINE",
-"391 0 LINE",
-"0 0 LINE"
-);
 }
 );
-};
-components = (
-{
-name = t;
-},
-{
-name = commabelow;
-transform = "{1, 0, 0, 1, 97, 0}";
-}
-);
-layerId = UUID1;
-width = 372;
-}
-);
-leftKerningGroup = t;
-rightKerningGroup = t;
 unicode = 021B;
 },
 {
@@ -36563,8 +36368,20 @@ layers = (
 {
 anchors = (
 {
+name = bottom;
+position = "{344, 0}";
+},
+{
+name = ogonek;
+position = "{619, 10}";
+},
+{
 name = top;
 position = "{326, 506}";
+},
+{
+name = topright;
+position = "{591, 506}";
 }
 );
 background = {
@@ -36654,8 +36471,20 @@ width = 688;
 {
 anchors = (
 {
+name = bottom;
+position = "{330, 0}";
+},
+{
+name = ogonek;
+position = "{593, 10}";
+},
+{
 name = top;
 position = "{301, 506}";
+},
+{
+name = topright;
+position = "{517, 506}";
 }
 );
 background = {
@@ -37668,11 +37497,11 @@ name = u;
 },
 {
 name = horncomb;
-transform = "{1, 0, 0, 1, 168, 0}";
+transform = "{1, 0, 0, 1, 467, 0}";
 }
 );
 layerId = UUID1;
-width = 585;
+width = 659;
 },
 {
 components = (
@@ -37701,11 +37530,11 @@ name = uhorn;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 149, 0}";
+transform = "{1, 0, 0, 1, 209, 0}";
 }
 );
 layerId = UUID1;
-width = 585;
+width = 659;
 },
 {
 components = (
@@ -37714,7 +37543,7 @@ name = uhorn;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 174, 0}";
+transform = "{1, 0, 0, 1, 234, 0}";
 }
 );
 layerId = UUID0;
@@ -37734,11 +37563,11 @@ name = uhorn;
 },
 {
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 183, 0}";
+transform = "{1, 0, 0, 1, 220, 0}";
 }
 );
 layerId = UUID1;
-width = 585;
+width = 659;
 },
 {
 components = (
@@ -37771,7 +37600,7 @@ transform = "{1, 0, 0, 1, 105, 0}";
 }
 );
 layerId = UUID1;
-width = 585;
+width = 659;
 },
 {
 components = (
@@ -37804,7 +37633,7 @@ transform = "{1, 0, 0, 1, 138, 0}";
 }
 );
 layerId = UUID1;
-width = 585;
+width = 659;
 },
 {
 components = (
@@ -37837,7 +37666,7 @@ transform = "{1, 0, 0, 1, 85, 0}";
 }
 );
 layerId = UUID1;
-width = 585;
+width = 659;
 },
 {
 components = (
@@ -38664,7 +38493,7 @@ layers = (
 anchors = (
 {
 name = top;
-position = "{292, 506}";
+position = "{302, 506}";
 }
 );
 background = {
@@ -38787,7 +38616,7 @@ layers = (
 anchors = (
 {
 name = top;
-position = "{417, 506}";
+position = "{447, 506}";
 }
 );
 background = {
@@ -39026,7 +38855,7 @@ width = 603;
 anchors = (
 {
 name = top;
-position = "{269, 506}";
+position = "{267, 506}";
 }
 );
 background = {
@@ -81438,11 +81267,11 @@ layers = (
 anchors = (
 {
 name = _topright;
-position = "{364, 506}";
+position = "{50, 506}";
 },
 {
 name = topright;
-position = "{364, 506}";
+position = "{215, 603}";
 }
 );
 layerId = UUID1;
@@ -81450,28 +81279,28 @@ paths = (
 {
 closed = 1;
 nodes = (
-"366 439 OFFCURVE",
-"446 495 OFFCURVE",
-"446 603 CURVE",
-"367 603 LINE",
-"367 540 OFFCURVE",
-"337 506 OFFCURVE",
-"281 506 CURVE",
-"281 439 LINE"
+"135 439 OFFCURVE",
+"215 495 OFFCURVE",
+"215 603 CURVE",
+"136 603 LINE",
+"136 540 OFFCURVE",
+"106 506 OFFCURVE",
+"50 506 CURVE",
+"50 439 LINE"
 );
 }
 );
-width = 594;
+width = 265;
 },
 {
 anchors = (
 {
 name = _topright;
-position = "{364, 506}";
+position = "{50, 506}";
 },
 {
 name = topright;
-position = "{364, 506}";
+position = "{247, 603}";
 }
 );
 layerId = UUID0;
@@ -81479,18 +81308,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"366 420 OFFCURVE",
-"478 469 OFFCURVE",
-"478 603 CURVE",
-"367 603 LINE",
-"367 540 OFFCURVE",
-"337 506 OFFCURVE",
-"281 506 CURVE",
-"281 420 LINE"
+"135 420 OFFCURVE",
+"247 469 OFFCURVE",
+"247 603 CURVE",
+"136 603 LINE",
+"136 540 OFFCURVE",
+"106 506 OFFCURVE",
+"50 506 CURVE",
+"50 420 LINE"
 );
 }
 );
-width = 600;
+width = 297;
 }
 );
 unicode = 031B;
