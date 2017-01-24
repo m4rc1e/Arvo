@@ -67252,6 +67252,8 @@ layerId = UUID1;
 width = 940;
 }
 );
+leftKerningGroup = onehalf;
+rightKerningGroup = onehalf;
 unicode = 00BD;
 },
 {
@@ -67411,6 +67413,8 @@ layerId = UUID1;
 width = 994;
 }
 );
+leftKerningGroup = onehalf;
+rightKerningGroup = onehalf;
 unicode = 00BC;
 },
 {
@@ -67618,6 +67622,8 @@ layerId = UUID1;
 width = 945;
 }
 );
+leftKerningGroup = onehalf;
+rightKerningGroup = onehalf;
 unicode = 00BE;
 },
 {
@@ -67885,6 +67891,8 @@ nodes = (
 width = 408;
 }
 );
+leftKerningGroup = asterisk;
+rightKerningGroup = asterisk;
 unicode = 002A;
 },
 {
@@ -67948,6 +67956,8 @@ nodes = (
 width = 463;
 }
 );
+leftKerningGroup = backslash;
+rightKerningGroup = backslash;
 unicode = 005C;
 },
 {
@@ -68029,6 +68039,8 @@ layerId = UUID1;
 width = 299;
 }
 );
+leftKerningGroup = dotaccent;
+rightKerningGroup = dotaccent;
 unicode = 00B7;
 },
 {
@@ -68124,6 +68136,8 @@ nodes = (
 width = 396;
 }
 );
+leftKerningGroup = hyphen;
+rightKerningGroup = hyphen;
 unicode = 2022;
 },
 {
@@ -68235,6 +68249,8 @@ layerId = UUID1;
 width = 256;
 }
 );
+leftKerningGroup = colon;
+rightKerningGroup = colon;
 unicode = 003A;
 },
 {
@@ -68298,6 +68314,8 @@ nodes = (
 width = 278;
 }
 );
+leftKerningGroup = period;
+rightKerningGroup = period;
 unicode = 002C;
 },
 {
@@ -68529,6 +68547,8 @@ nodes = (
 width = 1000;
 }
 );
+leftKerningGroup = period;
+rightKerningGroup = period;
 unicode = 2026;
 },
 {
@@ -68622,6 +68642,8 @@ layerId = UUID1;
 width = 333;
 }
 );
+leftKerningGroup = exclam;
+rightKerningGroup = exclam;
 unicode = 0021;
 },
 {
@@ -68717,6 +68739,8 @@ layerId = UUID1;
 width = 333;
 }
 );
+leftKerningGroup = exclam;
+rightKerningGroup = exclam;
 unicode = 00A1;
 },
 {
@@ -68888,6 +68912,8 @@ nodes = (
 width = 695;
 }
 );
+leftKerningGroup = numbersign;
+rightKerningGroup = numbersign;
 unicode = 0023;
 },
 {
@@ -68957,6 +68983,8 @@ layerId = UUID1;
 width = 223;
 }
 );
+leftKerningGroup = period;
+rightKerningGroup = period;
 unicode = 002E;
 },
 {
@@ -69094,6 +69122,8 @@ layerId = UUID1;
 width = 520;
 }
 );
+leftKerningGroup = question;
+rightKerningGroup = question;
 unicode = 003F;
 },
 {
@@ -69233,6 +69263,8 @@ layerId = UUID1;
 width = 503;
 }
 );
+leftKerningGroup = question;
+rightKerningGroup = question;
 unicode = 00BF;
 },
 {
@@ -69332,6 +69364,8 @@ nodes = (
 width = 318;
 }
 );
+leftKerningGroup = quotesingle;
+rightKerningGroup = quotesingle;
 unicode = 0022;
 },
 {
@@ -69395,6 +69429,8 @@ nodes = (
 width = 166;
 }
 );
+leftKerningGroup = quotesingle;
+rightKerningGroup = quotesingle;
 unicode = 0027;
 },
 {
@@ -69490,6 +69526,8 @@ layerId = UUID1;
 width = 256;
 }
 );
+leftKerningGroup = colon;
+rightKerningGroup = colon;
 unicode = 003B;
 },
 {
@@ -69553,6 +69591,8 @@ nodes = (
 width = 414;
 }
 );
+leftKerningGroup = slash;
+rightKerningGroup = slash;
 unicode = 002F;
 },
 {
@@ -69634,9 +69674,12 @@ nodes = (
 width = 500;
 }
 );
+leftKerningGroup = period;
+rightKerningGroup = period;
 unicode = 005F;
 },
 {
+color = 11;
 export = 0;
 glyphname = exclam.alt1;
 layers = (
@@ -69671,8 +69714,11 @@ nodes = (
 width = 333;
 }
 );
+leftKerningGroup = exclam.alt1;
+rightKerningGroup = exclam.alt1;
 },
 {
+color = 11;
 export = 0;
 glyphname = question.alt1;
 layers = (
@@ -69751,6 +69797,8 @@ nodes = (
 width = 520;
 }
 );
+leftKerningGroup = question.alt1;
+rightKerningGroup = question.alt1;
 },
 {
 color = 4;
@@ -69957,6 +70005,8 @@ nodes = (
 width = 352;
 }
 );
+leftKerningGroup = parenleft;
+rightKerningGroup = parenleft;
 unicode = 007B;
 },
 {
@@ -70188,6 +70238,8 @@ nodes = (
 width = 352;
 }
 );
+leftKerningGroup = parenright;
+rightKerningGroup = parenright;
 unicode = 007D;
 },
 {
@@ -70267,6 +70319,8 @@ nodes = (
 width = 352;
 }
 );
+leftKerningGroup = parenleft;
+rightKerningGroup = parenleft;
 unicode = 005B;
 },
 {
@@ -70346,6 +70400,8 @@ nodes = (
 width = 352;
 }
 );
+leftKerningGroup = parenright;
+rightKerningGroup = parenright;
 unicode = 005D;
 },
 {
@@ -70449,6 +70505,8 @@ nodes = (
 width = 352;
 }
 );
+leftKerningGroup = parenleft;
+rightKerningGroup = parenleft;
 unicode = 0028;
 },
 {
@@ -70552,6 +70610,8 @@ nodes = (
 width = 352;
 }
 );
+leftKerningGroup = parenright;
+rightKerningGroup = parenright;
 unicode = 0029;
 },
 {
@@ -70615,6 +70675,8 @@ nodes = (
 width = 1000;
 }
 );
+leftKerningGroup = hyphen;
+rightKerningGroup = hyphen;
 unicode = 2014;
 },
 {
@@ -70678,6 +70740,8 @@ nodes = (
 width = 500;
 }
 );
+leftKerningGroup = hyphen;
+rightKerningGroup = hyphen;
 unicode = 2013;
 },
 {
@@ -70741,6 +70805,8 @@ nodes = (
 width = 360;
 }
 );
+leftKerningGroup = hyphen;
+rightKerningGroup = hyphen;
 unicode = 002D;
 },
 {
@@ -70766,7 +70832,9 @@ layerId = UUID0;
 width = 376;
 }
 );
+leftKerningGroup = hyphen;
 leftMetricsKey = hyphen;
+rightKerningGroup = hyphen;
 rightMetricsKey = hyphen;
 unicode = 00AD;
 },
@@ -70891,6 +70959,8 @@ nodes = (
 width = 508;
 }
 );
+leftKerningGroup = guilsinglleft;
+rightKerningGroup = guilsinglleft;
 unicode = 00AB;
 },
 {
@@ -71014,6 +71084,8 @@ nodes = (
 width = 508;
 }
 );
+leftKerningGroup = guilsinglright;
+rightKerningGroup = guilsinglright;
 unicode = 00BB;
 },
 {
@@ -71089,6 +71161,8 @@ nodes = (
 width = 301;
 }
 );
+leftKerningGroup = guilsinglleft;
+rightKerningGroup = guilsinglleft;
 unicode = 2039;
 },
 {
@@ -71164,6 +71238,8 @@ nodes = (
 width = 301;
 }
 );
+leftKerningGroup = guilsinglright;
+rightKerningGroup = guilsinglright;
 unicode = 203A;
 },
 {
@@ -71241,6 +71317,8 @@ layerId = UUID1;
 width = 491;
 }
 );
+leftKerningGroup = quotesinglbase;
+rightKerningGroup = quotesinglbase;
 unicode = 201E;
 },
 {
@@ -71340,6 +71418,8 @@ nodes = (
 width = 520;
 }
 );
+leftKerningGroup = quoteleft;
+rightKerningGroup = quoteleft;
 unicode = 201C;
 },
 {
@@ -71439,6 +71519,8 @@ nodes = (
 width = 502;
 }
 );
+leftKerningGroup = quoteright;
+rightKerningGroup = quoteright;
 unicode = 201D;
 },
 {
@@ -71502,6 +71584,8 @@ nodes = (
 width = 296;
 }
 );
+leftKerningGroup = quoteleft;
+rightKerningGroup = quoteleft;
 unicode = 2018;
 },
 {
@@ -71565,6 +71649,8 @@ nodes = (
 width = 166;
 }
 );
+leftKerningGroup = quoteright;
+rightKerningGroup = quoteright;
 unicode = 2019;
 },
 {
@@ -71628,6 +71714,8 @@ nodes = (
 width = 278;
 }
 );
+leftKerningGroup = period;
+rightKerningGroup = period;
 unicode = 201A;
 },
 {
@@ -74117,6 +74205,7 @@ width = 661;
 unicode = 00A5;
 },
 {
+color = 11;
 export = 0;
 glyphname = dollar.S;
 layers = (
@@ -84380,8 +84469,6 @@ layerId = UUID0;
 width = 422;
 }
 );
-leftKerningGroup = brevecomb_acutecomb;
-rightKerningGroup = brevecomb_acutecomb;
 },
 {
 color = 9;
@@ -84418,8 +84505,6 @@ layerId = UUID0;
 width = 469;
 }
 );
-leftKerningGroup = brevecomb_gravecomb;
-rightKerningGroup = brevecomb_gravecomb;
 },
 {
 color = 9;
@@ -84546,8 +84631,6 @@ nodes = (
 width = 422;
 }
 );
-leftKerningGroup = brevecomb_hookabovecomb;
-rightKerningGroup = brevecomb_hookabovecomb;
 },
 {
 color = 9;
@@ -84584,8 +84667,6 @@ layerId = UUID0;
 width = 528;
 }
 );
-leftKerningGroup = brevecomb_tildecomb;
-rightKerningGroup = brevecomb_tildecomb;
 },
 {
 color = 9;
@@ -84642,8 +84723,6 @@ layerId = UUID0;
 width = 484;
 }
 );
-leftKerningGroup = circumflexcomb_acutecomb;
-rightKerningGroup = circumflexcomb_acutecomb;
 },
 {
 color = 9;
@@ -84700,8 +84779,6 @@ layerId = UUID0;
 width = 484;
 }
 );
-leftKerningGroup = circumflexcomb_gravecomb;
-rightKerningGroup = circumflexcomb_gravecomb;
 },
 {
 color = 9;
@@ -84758,8 +84835,6 @@ layerId = UUID0;
 width = 535;
 }
 );
-leftKerningGroup = circumflexcomb_hookabovecomb;
-rightKerningGroup = circumflexcomb_hookabovecomb;
 },
 {
 color = 9;
@@ -84816,8 +84891,6 @@ layerId = UUID0;
 width = 528;
 }
 );
-leftKerningGroup = circumflexcomb_tildecomb;
-rightKerningGroup = circumflexcomb_tildecomb;
 },
 {
 glyphname = NULL;
