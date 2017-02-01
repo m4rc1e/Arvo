@@ -1,5 +1,8 @@
 {
 .appVersion = "965";
+DisplayStrings = (
+"/de-cy/de-cy  \012/be-cy/u-cy/de-cy/ie-cy/te-cy  /de-cy/ie-cy/sha-cy/ie-cy/ve-cy/ie-cy/te-cy/softsign-cy"
+);
 copyright = "Copyright (c) 2010 by Anton Koovit. All rights reserved.";
 date = "2010-04-19 19:43:45 +0000";
 designer = "Anton Koovit";
@@ -55118,7 +55121,7 @@ unicode = 0491;
 },
 {
 glyphname = "de-cy";
-lastChange = "2017-02-01 10:38:27 +0000";
+lastChange = "2017-02-01 14:47:47 +0000";
 layers = (
 {
 background = {
@@ -93465,7 +93468,7 @@ parenright = -16;
 "@MMK_R_guilsinglleft" = -13;
 "@MMK_R_period" = -80;
 "@MMK_R_uni043B" = -70;
-"@MMK_R_uni043E" = -12;
+"@MMK_R_uni043E" = -52;
 "a-cy" = -20;
 backslash = -11;
 braceright = -14;
@@ -96140,7 +96143,7 @@ parenright = -16;
 "@MMK_R_guilsinglleft" = -13;
 "@MMK_R_period" = -80;
 "@MMK_R_uni043B" = -70;
-"@MMK_R_uni043E" = -12;
+"@MMK_R_uni043E" = -32;
 "a-cy" = -20;
 backslash = -11;
 braceright = -14;

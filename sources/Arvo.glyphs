@@ -44909,7 +44909,7 @@ name = N.alt2;
 }
 );
 layerId = UUID0;
-width = 925;
+width = 860;
 },
 {
 anchors = (
@@ -44933,11 +44933,12 @@ transform = "{1, 0, 0, 1, 21, 0}";
 }
 );
 layerId = UUID1;
-width = 900;
+width = 848;
 }
 );
 leftKerningGroup = I;
 rightKerningGroup = I;
+rightMetricsKey = "En-cy";
 unicode = 0418;
 },
 {
