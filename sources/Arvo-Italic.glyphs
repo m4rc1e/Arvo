@@ -1,5 +1,8 @@
 {
 .appVersion = "965";
+DisplayStrings = (
+/quoteleft/quoteright/quoteright
+);
 copyright = "Copyright 2013 The Arvo Project Authors (anton@korkork.com), with Reserved Font Name \"Arvo\".";
 customParameters = (
 {
@@ -42,6 +45,8 @@ automatic = 1;
 code = "languagesystem DFLT dflt;
 languagesystem latn dflt;
 languagesystem cyrl dflt;
+languagesystem latn ROM;
+languagesystem latn MOL;
 languagesystem cyrl SRB;
 languagesystem cyrl MKD;
 languagesystem cyrl BGR;
@@ -68,8 +73,8 @@ automatic = 1;
 code = "lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
 	@CombiningNonTopAccents = [cedillacomb dotbelowcomb ogonekcomb horncomb strokeshortcomb];
-	sub [i]' @CombiningTopAccents by [idotless];
-	sub [i]' @CombiningNonTopAccents @CombiningTopAccents by [idotless];
+	sub [i j]' @CombiningTopAccents by [idotless jdotless];
+	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
 } ccmp_Other_1;
 
 lookup ccmp_latn_1 {
@@ -89,7 +94,15 @@ name = ccmp;
 },
 {
 automatic = 1;
-code = "script cyrl;
+code = "script latn;
+language ROM;
+sub Scedilla by Scommaaccent;
+sub scedilla by scommaaccent;
+language MOL;
+sub Scedilla by Scommaaccent;
+sub scedilla by scommaaccent;
+
+script cyrl;
 language SRB;
 sub be-cy by be-cy.loclSRB;
 sub ge-cy by ge-cy.loclSRB;
@@ -156,12 +169,14 @@ name = frac;
 automatic = 1;
 code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
 sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+sub N o period by numero;
 ";
 name = ordn;
 },
 {
 automatic = 1;
 code = "sub period period period by period_period_period;
+sub D E by D_E;
 ";
 name = dlig;
 },
@@ -19161,64 +19176,6 @@ rightKerningGroup = i;
 unicode = 0069;
 },
 {
-glyphname = idotless;
-layers = (
-{
-anchors = (
-{
-name = top;
-position = "{238, 506}";
-}
-);
-layerId = "EEC59083-BA83-4EFB-8B50-D01213A5FD15";
-paths = (
-{
-closed = 1;
-nodes = (
-"79 422 LINE",
-"169 422 LINE",
-"72 0 LINE",
-"252 0 LINE",
-"271 84 LINE",
-"190 84 LINE",
-"288 506 LINE",
-"99 506 LINE"
-);
-}
-);
-width = 319;
-},
-{
-anchors = (
-{
-name = top;
-position = "{258, 506}";
-}
-);
-layerId = "8956C7A5-95B5-4256-B2D2-E489185594C4";
-paths = (
-{
-closed = 1;
-nodes = (
-"38 372 LINE",
-"146 372 LINE",
-"60 0 LINE",
-"344 0 LINE",
-"375 134 LINE",
-"258 134 LINE",
-"344 506 LINE",
-"69 506 LINE"
-);
-}
-);
-width = 420;
-}
-);
-leftKerningGroup = n;
-rightKerningGroup = u;
-unicode = 0131;
-},
-{
 color = 6;
 glyphname = idotless;
 layers = (
@@ -19282,28 +19239,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"144 0 LINE",
+"344 506 LINE",
+"69 506 LINE",
+"38 372 LINE",
+"146 372 LINE",
+"60 0 LINE",
 "344 0 LINE",
 "375 134 LINE",
-"175 134 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"38 372 LINE",
-"288 372 LINE",
-"319 506 LINE",
-"69 506 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"227 0 LINE",
-"344 506 LINE",
-"177 506 LINE",
-"60 0 LINE"
+"258 134 LINE"
 );
 }
 );
@@ -19347,28 +19290,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"106 0 LINE",
+"98 506 LINE",
+"78 422 LINE",
+"169 422 LINE",
+"71 0 LINE",
 "251 0 LINE",
 "270 84 LINE",
-"125 84 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"78 422 LINE",
-"263 422 LINE",
-"283 506 LINE",
-"98 506 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"170 0 LINE",
-"287 506 LINE",
-"188 506 LINE",
-"71 0 LINE"
+"189 84 LINE",
+"287 506 LINE"
 );
 }
 );
@@ -52847,86 +52776,6 @@ width = 297;
 leftKerningGroup = quoteleft;
 rightKerningGroup = quoteleft;
 unicode = 2018;
-},
-{
-glyphname = quoteright;
-layers = (
-{
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"54 729 LINE",
-"195 678 LINE",
-"99 513 LINE",
-"-2 548 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"0 760 LINE",
-"166 760 LINE",
-"166 0 LINE",
-"0 0 LINE"
-);
-}
-);
-};
-layerId = "EEC59083-BA83-4EFB-8B50-D01213A5FD15";
-paths = (
-{
-closed = 1;
-nodes = (
-"10 557 LINE",
-"80 531 LINE",
-"168 701 LINE",
-"65 742 LINE"
-);
-}
-);
-width = 166;
-},
-{
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"54 729 LINE",
-"195 678 LINE",
-"99 513 LINE",
-"-2 548 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"0 760 LINE",
-"166 760 LINE",
-"166 0 LINE",
-"0 0 LINE"
-);
-}
-);
-};
-layerId = "8956C7A5-95B5-4256-B2D2-E489185594C4";
-paths = (
-{
-closed = 1;
-nodes = (
-"-2 548 LINE",
-"99 513 LINE",
-"195 678 LINE",
-"54 729 LINE"
-);
-}
-);
-width = 166;
-}
-);
-unicode = 2019;
 },
 {
 glyphname = quoteright;
