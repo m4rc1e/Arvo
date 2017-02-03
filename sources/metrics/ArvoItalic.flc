@@ -1,0 +1,496 @@
+%%FONTLAB CLASSES
+
+%%CLASS _KERN_A_1ST
+%%GLYPHS  A' Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_A_2ND
+%%GLYPHS  A' Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_C_1ST
+%%GLYPHS  C' Cacute Ccaron Ccedilla
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_D_1ST
+%%GLYPHS  D' Dcaron Dcroat Eth
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_E_1ST
+%%GLYPHS  E' AE Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek OE
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_G_1ST
+%%GLYPHS  G' Gbreve Gcommaaccent
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_I_1ST
+%%GLYPHS  I' H Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek M
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_I_2ND
+%%GLYPHS  I' B D Dcaron Dcroat E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Eth F H Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek K Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde P R Racute Rcaron Rcommaaccent Thorn
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_K_1ST
+%%GLYPHS  K' Kcommaaccent
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_L_1ST
+%%GLYPHS  L' Lacute Lcaron Lcommaaccent Lslash
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_N_1ST
+%%GLYPHS  N' Nacute Ncaron Ncommaaccent Ntilde
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_O_1ST
+%%GLYPHS  O' Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde Q
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_O_2ND
+%%GLYPHS  O' C Cacute Ccaron Ccedilla G Gbreve Gcommaaccent OE Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde Q
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_R_1ST
+%%GLYPHS  R' Racute Rcaron Rcommaaccent
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_S_1ST
+%%GLYPHS  S' Sacute Scaron Scedilla Scommaaccent
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_S_2ND
+%%GLYPHS  S' Sacute Scaron Scedilla Scommaaccent
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_T_1ST
+%%GLYPHS  T' Tcaron Tcommaaccent uni021A
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_T_2ND
+%%GLYPHS  T' Tcaron Tcommaaccent uni021A
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_U_1ST
+%%GLYPHS  U' Uacute Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_U_2ND
+%%GLYPHS  U' Uacute Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_Y_1ST
+%%GLYPHS  Y' Yacute Ydieresis
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_Y_2ND
+%%GLYPHS  Y' Yacute Ydieresis
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_Z_1ST
+%%GLYPHS  Z' Zacute Zcaron Zdotaccent
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_Z_2ND
+%%GLYPHS  Z' Zacute Zcaron Zdotaccent
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_a_1ST
+%%GLYPHS  a' aacute abreve acircumflex adieresis agrave amacron aogonek aring atilde
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_a_2ND
+%%GLYPHS  a' aacute abreve acircumflex adieresis agrave amacron aogonek aring atilde d dcaron dcroat g gbreve gcommaaccent q
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_b_1ST
+%%GLYPHS  b' p thorn
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_c_1ST
+%%GLYPHS  c' cacute ccaron ccedilla
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_colon_1ST
+%%GLYPHS  colon' semicolon
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_colon_2ND
+%%GLYPHS  colon' semicolon
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_d_1ST
+%%GLYPHS  d' dcaron dcroat
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_e_1ST
+%%GLYPHS  e' ae eacute ecaron ecircumflex edieresis edotaccent egrave emacron eogonek oe
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_f_2ND
+%%GLYPHS  f' fi fl
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_g_1ST
+%%GLYPHS  g' gbreve gcommaaccent
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_guilsinglleft_1ST
+%%GLYPHS  guilsinglleft' guillemotleft
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_guilsinglleft_2ND
+%%GLYPHS  guilsinglleft' guillemotleft
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_guilsinglright_1ST
+%%GLYPHS  guilsinglright' guillemotright
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_guilsinglright_2ND
+%%GLYPHS  guilsinglright' guillemotright
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_h_2ND
+%%GLYPHS  h' b k kcommaaccent thorn l lacute lcaron lcommaaccent
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_hyphen_1ST
+%%GLYPHS  hyphen' emdash endash
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_hyphen_2ND
+%%GLYPHS  hyphen' emdash endash
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_i_1ST
+%%GLYPHS  i' dotlessi fi iacute icircumflex idieresis igrave imacron iogonek
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_i_2ND
+%%GLYPHS  i' iacute icircumflex idieresis igrave imacron iogonek
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_k_1ST
+%%GLYPHS  k' kcommaaccent
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_l_1ST
+%%GLYPHS  l' fl lacute lcaron lcommaaccent lslash
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_n_1ST
+%%GLYPHS  n' h m nacute napostrophe ncaron ncommaaccent ntilde
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_n_2ND
+%%GLYPHS  n' m nacute napostrophe ncaron ncommaaccent ntilde r racute rcaron rcommaaccent dotlessi
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_o_1ST
+%%GLYPHS  o' oacute ocircumflex odieresis ograve ohungarumlaut omacron oslash otilde
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_o_2ND
+%%GLYPHS  o' c cacute ccaron ccedilla e eacute ecaron ecircumflex edieresis edotaccent egrave emacron eogonek oacute ocircumflex odieresis oe ograve ohungarumlaut omacron oslash otilde
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_period_1ST
+%%GLYPHS  period' comma quotedblbase quotesinglbase
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_period_2ND
+%%GLYPHS  period' comma ellipsis quotedblbase quotesinglbase
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_quoteleft_1ST
+%%GLYPHS  quoteleft' quotedblleft
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_quoteleft_2ND
+%%GLYPHS  quoteleft' quotedblleft
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_quoteright_1ST
+%%GLYPHS  quoteright' quotedblright
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_quoteright_2ND
+%%GLYPHS  quoteright' quotedblright
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_quotesingle_1ST
+%%GLYPHS  quotesingle' quotedbl
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_quotesingle_2ND
+%%GLYPHS  quotesingle' quotedbl
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_r_1ST
+%%GLYPHS  r' racute rcaron rcommaaccent
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_s_1ST
+%%GLYPHS  s' sacute scaron scedilla scommaaccent
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_s_2ND
+%%GLYPHS  s' sacute scaron scedilla scommaaccent
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_t_1ST
+%%GLYPHS  t' tcaron tcommaaccent uni021B
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_t_2ND
+%%GLYPHS  t' tcaron tcommaaccent uni021B
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_u_1ST
+%%GLYPHS  u' uacute ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_u_2ND
+%%GLYPHS  u' uacute ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_uni0413_1ST
+%%GLYPHS  uni0413' uni0403
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_uni0415_1ST
+%%GLYPHS  uni0415' uni0401
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_uni0418_1ST
+%%GLYPHS  uni0418' uni0406 uni0407 uni040D uni040F uni0419 uni041B uni041C uni041D uni041F uni0427 uni0428 uni042B uni042F
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_uni0418_2ND
+%%GLYPHS  uni0418' uni0401 uni0403 uni0406 uni0407 uni040A uni040C uni040D uni040F uni0411 uni0412 uni0413 uni0415 uni0419 uni041A uni041C uni041D uni041F uni0420 uni0426 uni0428 uni0429 uni042B uni042C uni042E uni0490
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_uni041A_1ST
+%%GLYPHS  uni041A' uni040C uni0416
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_uni041B_2ND
+%%GLYPHS  uni041B' uni0409
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_uni041E_1ST
+%%GLYPHS  uni041E' uni042D uni042E
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_uni041E_2ND
+%%GLYPHS  uni041E' uni0404 uni0421
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_uni0422_2ND
+%%GLYPHS  uni0422' uni040B uni0402
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_uni0423_1ST
+%%GLYPHS  uni0423' uni040E
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_uni0423_2ND
+%%GLYPHS  uni0423' uni040E
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_uni042C_1ST
+%%GLYPHS  uni042C' uni0409 uni040A uni042A
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_uni0433_1ST
+%%GLYPHS  uni0433' uni0453
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_uni0433_2ND
+%%GLYPHS  uni0433' uni0453
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_uni0435_1ST
+%%GLYPHS  uni0435' uni0451
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_uni0438_1ST
+%%GLYPHS  uni0438' uni0439 uni043D uni0447 uni0448 uni044B uni045D uni045F
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_uni0438_2ND
+%%GLYPHS  uni0438' uni0439 uni0446 uni0448 uni0449 uni045D uni045F
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_uni043A_1ST
+%%GLYPHS  uni043A' uni045C
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_uni043B_2ND
+%%GLYPHS  uni043B' uni0459
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_uni043D_2ND
+%%GLYPHS  uni043D' uni0432 uni043A uni0440 uni0442 uni044B uni044C uni044E uni045A uni045C uni0491
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_uni043E_1ST
+%%GLYPHS  uni043E' uni0440 uni0444 uni044D uni044E
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_uni043E_2ND
+%%GLYPHS  uni043E' uni0434 uni0435 uni0441 uni0444 uni0451 uni0454
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_uni043F_1ST
+%%GLYPHS  uni043F' uni043B uni043C uni044F
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_uni0443_1ST
+%%GLYPHS  uni0443' uni045E
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_uni0443_2ND
+%%GLYPHS  uni0443' uni045E
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_uni0446_1ST
+%%GLYPHS  uni0446' uni0449
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_uni044C_1ST
+%%GLYPHS  uni044C' uni044A uni0459 uni045A
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_uni0456_1ST
+%%GLYPHS  uni0456' uni0457
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_uni0456_2ST
+%%GLYPHS  uni0456' uni0457
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_uni045B_2ND
+%%GLYPHS  uni045B' uni0452
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_y_1ST
+%%GLYPHS  y' yacute ydieresis
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_y_2ND
+%%GLYPHS  y' yacute ydieresis
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_z_1ST
+%%GLYPHS  z' zacute zcaron zdotaccent
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_z_2ND
+%%GLYPHS  z' zacute zcaron zdotaccent
+%%KERNING R 0
+%%END
+
+%%CLASS _uni0426_1ST
+%%GLYPHS  uni0426' uni0429
+%%KERNING L 0
+%%END
